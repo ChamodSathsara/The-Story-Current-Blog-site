@@ -1,3 +1,15 @@
 {
-  "pages": {}
+  "pages": {
+    "/[[...path]]/page.next-page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[[...path]]/page.next-page.js"
+    ],
+    "/layout.next-page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.next-page.css",
+      "static/chunks/app/layout.next-page.js"
+    ]
+  }
 }
